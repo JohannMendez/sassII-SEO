@@ -1,0 +1,15 @@
+// MAPS
+$textoResaltado: (
+    estreno: rgb(17, 14, 231),
+    gol:rgb(169, 88, 235),
+    presion: rgb(224, 223, 115),
+    equipo:rgb(92, 13, 13),
+);
+
+@each $frases, $color in $textoResaltado{
+    .#{$frases}{
+        color: $color;
+        font-weight: bolder ;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

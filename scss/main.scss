@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+// VARIABLES
+@import './variables/tamanios';
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/mixin';
+@import './variables/maps';
+// SECCIONES
+@import './secciones/index';
+@import './secciones/header';

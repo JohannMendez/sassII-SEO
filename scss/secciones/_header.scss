@@ -1,0 +1,12 @@
+// HEADER
+.header{
+    @if ($colorHeader == true){
+        background-color: rgb(173, 31, 20);
+    }
+    @else{
+        background-color: rgb(105, 71, 255);
+    }
+    h1{
+        @extend %estilosTitulo;
+    }
+}

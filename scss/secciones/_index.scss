@@ -1,0 +1,22 @@
+.mainIndex{
+    img{
+        width: $ancho;
+    }
+    h2{
+        font-size: $font-size-grande/2;
+    }
+    h3{
+        @extend %estiloText;
+    }
+}
+
+.textoNoticia{
+    @include fontStyle($tamanio-letra, $color2, $color4);
+}
+
+.footer{
+    @include textFooter($color5, $tamanio-footer, $color6, $color7);
+}
+.menu{
+    @include editMenu ($color2, $tamanio-letra, $color3);
+}

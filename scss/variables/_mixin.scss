@@ -1,0 +1,36 @@
+// MIXIN
+@mixin fontStyle ($tamanio-letra, $color2, $color4) {
+    background-color: rgb(115, 230, 92);
+    color: $color2;
+    font-size: $tamanio-letra;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding: 20px 20px;
+    
+    &:hover{
+        background-color: $color4;
+        color: $color3;
+    }
+}
+
+@mixin textFooter ($color5, $tamanio-footer, $color6, $color7) {
+    background-color: $color6;
+    font-size: $tamanio-footer - 3 ;
+    color: $color5;
+    text-align: center;
+
+    &:hover{
+        background-color: $color7 ;
+    }
+}
+
+@mixin editMenu ($color2, $tamanio-letra, $color3) {
+    background-color: $color2;
+    font-size: $tamanio-letra + 1;
+    color: $color3;
+    text-align: center;
+
+    &:hover{
+        background-color: red;
+    }
+}
