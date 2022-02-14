@@ -1,0 +1,23 @@
+1-Optimize imagenes y aplique alts
+
+2-Coloque etiquetas meta keywords:
+    Index: sass, scss, deportes, river, noticias de deportes, futbol
+    Index2: sass, scss, deportes, huracan, noticias de deportes, futbol
+
+3-Coloque Descriptions para la descripcion del contenido de los HTML
+
+    Index:Unión le ganó con justicia y con un penal polémico a un River que se pareció poco al campeón.
+
+    Index2:Huracán aprovechó los horrores de Lanús y arrancó con una sonrisa. El grito de gol del uruguayo Cóccaro para el 1-0 de Huracán a Lanús.
+
+4-Aplique estilos usando scss
+
+5-Agrege un Shortcut Icon a la Pagina
+
+6-Aplique Extends y mixins en la pagina Web
+
+7- Coloque Hovers en los parrafos
+
+8-Agrege Mapa del Sitio Web
+
+9-Agrege un gitignore 
